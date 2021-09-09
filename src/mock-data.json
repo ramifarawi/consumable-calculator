@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "liquid_name": "Ethanol",
+    "vol_per_multiplier": "5",
+    "multiplier": "96",
+    "single_or_multi": "Single"
+
+  },
+  {
+    "id": 2,
+    "liquid_name": "Water (control)",
+    "vol_per_multiplier": "50",
+    "multiplier": "96",
+    "single_or_multi": "Multi"
+  }
+]
