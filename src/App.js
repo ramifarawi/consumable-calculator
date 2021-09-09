@@ -136,8 +136,8 @@ const App = () => {
       <thead>
         <tr>
           <th>Liquid Name</th>
-          <th>Volume per Multiplier (ul)</th>
-          <th>Multiplier (# samplesTESTTEST, # washes, etc.)</th>
+          <th>Volume (ul) per Multiplier </th>
+          <th>Multiplier (# samples, # washes, etc.)</th>
           <th>Single or Multi-Channel</th>
         </tr>
       </thead>
