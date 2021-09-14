@@ -185,13 +185,11 @@ const App = () => {
             placeholder="Multiplier"
             onChange={handleAddFormChange}
           />
-          <input
-            type="text"
-            name="single_or_multi"
-            required="required"
-            placeholder="`Single` or `Multi`"
-            onChange={handleAddFormChange}
-          />
+          <select name="single_or_multi" id="single_or_multi" onChange={handleAddFormChange}>
+          <option value="" disabled selected>Single or Multi-Channel Pipette?</option>
+          <option value="Single">Single</option>
+          <option value="Multi">Multi</option>
+          </select>
           <button type="submit">Add</button>
         </form>
 

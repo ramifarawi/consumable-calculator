@@ -39,14 +39,11 @@ const EditableRow = ({
         ></input>
       </td>
       <td>
-        <input
-          type="text"
-          required="required"
-          placeholder="`Single` or `Multi`"
-          name="single_or_multi"
-          value={editFormData.single_or_multi}
-          onChange={handleEditFormChange}
-        ></input>
+      <select name="single_or_multi" id="single_or_multi" onChange={handleEditFormChange}>
+      <option value="" disabled selected>Single or Multi-Channel Pipette?</option>
+      <option value="Single">Single</option>
+      <option value="Multi">Multi</option>
+      </select>
       </td>
       <td>
         <button type="submit">Save</button>
